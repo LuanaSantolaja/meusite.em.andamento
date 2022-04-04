@@ -1,0 +1,128 @@
+<!--Tudo tem que ter significado Semantico, sempre questionar qual o melhor elemento, melhor tag para utilizar no html-->
+<!DOCTYPE html>
+<!--Para escrever a mesma coisa em varias colunas segura alt e seleciona-->
+<html lang="PT_br">
+<!--Usar um ponto de exclamação antes de escrever o VScode já te indica uma estrutura HTML-->
+	<head>
+		<meta charset="UTF-8">
+<!--Viweport é para adaptar ao tamanho do dispositivo do usuário-->
+        <meta name="viewport" content="widht=device-widht, initial-scale1.0">
+		<title>Luana Santolaja</title>
+<!--Da para converter PNG em ICO-->
+        <link rel="icon" href="../HTML/images/arquivo-html.ico" />
+
+        <meta name="description" content="Alguns dos meus dados no meu estudo de HTML">
+
+        <meta name="author" content="Luana">
+
+        <meta name="robots" content="index, follow">
+
+    </head>
+    <body>
+        <div class="container" id="links" style="background-color: lemonchiffon">
+<a href="https://br.linkedin.com/in/luana-santolaja-170a3a165" target="__blank">Linkedin</a> <a href="https://github.com/LuanaSantolaja?tab=overview&from=2020-12-01&to=2020-12-31" target="__blank">GitHub</a>
+<!--Sites estão no cabeçalho da página-->
+<!--<pre> e <code> devem ser usados para inserir CSS e JavaScript, e ficam exatamente do jeito que está formadato com todos os espaçamentos e quebras de linhas-->
+        </div>
+<pre>
+    <code>
+        <div style="background-color: antiquewhite;">
+<!--Tag br quebra linhas-->
+                <h1><em>Luana Santolaja Silva</em></h1>
+                    <h2>IT University Student</h2>
+<!--Em não quebra linha, filha da tag P, usado para deixar em Italico-->
+                    <h3>23 anos</h3>
+<!--Strong não quebra linha, filho da tag P, usado para destaque-->
+<!--Span usado na tag de P, não quebra linha pode deixar o texto menor-->
+        </div>
+<!--Lista ordenadas tem que envolvidas pela tag <ol> 
+Listas não ordenadas são envolvidas por <ul> -->
+                <div style="background-color: lavenderblush;">
+                        <p>Olá! 👋🏻</p>
+                    <ul>
+                        <li>📚 Estudante de Tecnologia na Faculdade de Tecnologia de Mauá (FATEC)</li>
+                        <li>🎓 Classificação: Gestão em Tecnologia da Informação /TI</li>
+                        <li>🗨️ Espanhol Intermediário, Inglês Básico</li>
+                        <li>👩🏻‍💻 Pacote Office Intermediário</li>
+                        <li>⚡ Front-end; Programação Web</li>
+                    </ul>
+                </div>
+</pre>
+    </code>
+<!--Caracteres reservados como: "" > '' pode até exibir mas com problemas, para exibir é usado o &lt; = < /
+&gt; = > / &apos; = '' / &amp; = & comercial / &quot; = "" / &nbsp; = espaço na frente do texto / pode ser usado antes e depois de alguma tag -->
+<!-- Citações podem ser utilizadas com o <blockquote cite=> e pode ser adiconado texto dentro da mesma tag
+Podendo ser utilizado o <cite> dentro da tag <a href> onde te diriciona para um site-->
+    <div>
+        <dl>
+            <dt><b>Experiência Profissional</b></dt>
+            <dd>Vendedora na Empresa A&E Momento Cosméticos LTDA</dd><br>
+            <dd>Atribuições: Recepcionar e atender clientes presencialmente ou via telefone, processando e gerenciando pedidos; Realizar o cadastro de clientes; Finalizando as compras no caixa; Bater o caixa; Organização da loja e estoque; Controle de quantidade de produtos; Atingir ou exceder as cotas de vendas.</dd>
+        </dl>
+        <dl>
+            <dt><b>Extracurriculares</b></dt>
+            <dd>Espanhol Intermediário Centro de Estudos de Línguas da Escola Estadual Professora Marlene Camargo Ribeiro.</dd><br>
+            <dd>Informática Básica Escola SENAI de Mauá: Conhecimento em Windows & Office (Word, Excel, Power Point).</dd>
+        </dl>
+    </div>
+        <div style="background-color: bisque;">
+        <address>
+            <p><abbr title="Luana Santolaja Silva">Luana</abbr></p><br> <!--<br> quebra de linha-->
+            <!--A Tag <abbr> é usado dentro da Tag <p> = <p> <abbr> é mostra a abrevição, mas deve ser usado dentro da Tag <abbr title= com o nome inteiro da abreviação-->
+            <strong>Mauá, São Paulo</strong>
+        </address>
+        </div> 
+<!-- <a href="Java" <dowload="">Clique aqui para ir em Java</a>
+<h1 id="Java">Java</h1> DOWLOAD pode baixar algum conteúdo dentro da sua baixa
+Serve para ir até o local indicado não importa se está no final ou começo-->
+<pre>
+    <code>
+<div>
+    <a href="suflores.html">Clique aqui para ver uma criação</a>
+<!--É possivel colocar pastas se sentir dentro de outra também, utilizando / antes e selecionar as pastas-->
+    
+    <img src="https://source.unsplash.com/random" alt="">
+<form action="/submit.html" method="POST">
+        <input type="email" name="email" placeholder="E-mail"/><br>
+        <input type="password" name="password" placeholder="Senhal"> 
+        <button type="submit"></button>
+<table">
+    <caption style="background-color:blanchedalmond">Para entrar em contato comigo</caption>
+    <colgroup>
+    <col style="background-color: darkgray;">
+    <col style="background-color: darkgrey;">
+<!--Pode ser utlizado Span antes do Style para tabelas mais complexas-->
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="colgroup">Rede</th>
+            <th scope="colgroup">Contato</th>
+    </thead>
+        </tr>
+    <tbody>
+<!--scope="col" seria a coluna
+Para o cabeçalho de linha (horizontal) scope="rou"-->
+        <tr>
+            <td>Whatsapp</td>
+            <td>  11 951498299</td>
+        </tr>
+        <tr>
+            <td>Instagram</td>
+            <td>  @luanasantolaja</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total de contatos</td>
+            <td>  2</td>
+        </tr>
+    </tfoot>
+</table>
+</form>
+<!--Para ocupar duas linhas em branco é usado rowspan dentro de do <th>
+Para ocupar duas colunas com nomes é usado colspan dentro do <th>
+-->
+    </body>
+</pre>
+    </code>
+</html>
